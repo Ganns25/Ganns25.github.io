@@ -43,3 +43,14 @@ margin-right: 10px;
 img.dibley {
     max-width: 100%
 }
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 5px;
+}
+wrapper.box1 {
+    grid-column-start: 1/4;
+    background-color: #03cffc;
+    border: 5px solid black;
+}
