@@ -58,15 +58,19 @@
         import React from 'react';
         import ReactDOM from 'react-dom';
 
-        let name=React.createElement(
-            "h1", {style:{color="blue"}}, "George Ann Stricklin"
-            )
+        const h1 = document.createElement('h1');
+        const img = document.createElement('img');
+        const content = document.createElement('content');
 
-        // Step 2: Render the React element
-        ReactDOM.render(
-            name,
-            document.getElementById('h1')
-            );
+        h1.textContent='George Ann Stricklin';
+        img.Content="images/aboutpic2.jpg';
+        content.textContent="Currently working on a bachelors in Web Design at Champlain College.";
+
+        h1.appendChild(img);
+        h1.appendChild(content);
+        user.appendcild(h1);
+
+        root.render(user);
     </script>
 
 </main><!-- /.container -->
