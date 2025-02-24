@@ -50,15 +50,23 @@
     <script>
         const user = {
             name: 'George Ann Stricklin',
-            imageUrl: 'images/aboutmepic2.jpg',
+            imageUrl: 'images/aboutpic2.jpg',
             bio: 'Currently working on a bachelors in Web Design at Champlain College.'
         };
 
         // Step one - Create a React element
-        
+        import React from 'react';
+        import ReactDOM from 'react-dom';
+
+        let name=React.createElement(
+            "h1", {style:{color="blue"}}, "George Ann Stricklin"
+            )
 
         // Step 2: Render the React element
-
+        ReactDOM.render(
+            name,
+            document.getElementById('h1')
+            );
     </script>
 
 </main><!-- /.container -->
