@@ -55,13 +55,13 @@
         };
 
         // Step one - Create a React element
-        const h1 = React.createElement('#h1', null, user.name);
-        const img = React.createElement('#img', null, user.img);
-        const p = React.createElement('#content', null, user.content)
+        const heading = React.createElement('h1', null, user.name);
+        const picture = React.createElement('img', {src: user.imageUrl});
+        const paragraph = React.createElement('p', null, user.bio)
         
-        ReactDOM.render(h1, document.getElementById('h1'));
-        ReactDOM.render(img, document.getElementById('img'));
-        ReactDOM.render(p, document.getElementById('content'));
+        ReactDOM.render(heading, document.getElementById('h1'));
+        ReactDOM.render(picture, document.getElementById('img'));
+        ReactDOM.render(paragraph, document.getElementById('content'));
     </script>
 
 </main><!-- /.container -->
