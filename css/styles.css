@@ -105,9 +105,11 @@ img.dibley {
   border: 2px solid blue;
   width: 3fr;
   padding: 3px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6rem;
   background-color: cream;
 }
 .picbox {
-max-width: 100%l
+max-width: 100%;
 height: auto;
 }
