@@ -101,10 +101,13 @@ img.dibley {
   border: 2px solid black;
 }
 
-#textbox {
+.textbox {
   border: 2px solid blue;
   width: 3fr;
   padding: 3px;
   background-color: cream;
 }
-
+.picbox {
+max-width: 100%l
+height: auto;
+}
